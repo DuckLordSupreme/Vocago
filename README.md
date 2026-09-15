@@ -27,7 +27,7 @@ Java 21 · Swing · Gradle · JUnit 5
 
 [Technical Report & User Manual](./Project_Report.pdf)
 
-## Demo
+## Preview
 ![new_profile](project_demo/new_profile_panel.png)
 ![statistics](project_demo/profile_dashboard.png)
 ![learning_panel](project_demo/learning_panel.png)
