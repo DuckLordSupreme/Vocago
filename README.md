@@ -23,7 +23,7 @@ Java 21 · Swing · Gradle · JUnit 5
 
 ## Documentation
 
-[Project-Report&Manual](./Vocago_Report.pdf)
+[Project-Report&Manual](./Project_Report.pdf)
 
 ## Demo
 ![new_profile](project_demo/new_profile_panel.png)
