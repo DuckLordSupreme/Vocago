@@ -3,11 +3,13 @@
 Vocago is a desktop vocabulary-learning application built with
 Java 21 and Swing.
 
-## To Run Vocago
+## Running Vocago
 
 Requires Java 21.
 
+```bash
 java -jar OOP25-Vocago-all.jar
+```
 
 ## Features
 
@@ -23,7 +25,7 @@ Java 21 · Swing · Gradle · JUnit 5
 
 ## Documentation
 
-[Project-Report&Manual](./Project_Report.pdf)
+[Technical Report & User Manual](./Project_Report.pdf)
 
 ## Demo
 ![new_profile](project_demo/new_profile_panel.png)
