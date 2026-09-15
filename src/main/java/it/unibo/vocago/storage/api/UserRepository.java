@@ -10,8 +10,10 @@ import it.unibo.vocago.model.user.api.User;
  */
 public interface UserRepository {
 
-    /** The directory where user data is stored. */
-    Path USERS_DIRECTORY = Path.of("data", "profiles");
+    /** Packaged apps store profiles outside the installation directory. */
+    Path USERS_DIRECTORY = Boolean.getBoolean("vocago.packaged")
+        ? Path.of(System.getProperty("user.home"), ".vocago", "profiles")
+        : Path.of("data", "profiles");
 
     /**
      * Saves the given user, creating or overwriting its stored data.

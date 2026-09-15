@@ -10,6 +10,7 @@ import java.time.format.DateTimeParseException;
 import java.util.List;
 import it.unibo.vocago.model.types.DailyGoalSettings;
 import it.unibo.vocago.storage.api.StatisticsRepository;
+import it.unibo.vocago.storage.api.UserRepository;
 
 /**
  * File based implementation of {@link StatisticsRepository}. The statistics of
@@ -17,7 +18,7 @@ import it.unibo.vocago.storage.api.StatisticsRepository;
  */
 public final class StatisticsFileStorage implements StatisticsRepository {
 
-    private static final Path USERS_DIRECTORY = Path.of("data", "profiles");
+    private static final Path USERS_DIRECTORY = UserRepository.USERS_DIRECTORY;
     private static final int LAST_STUDY_DATE_INDEX = 0;
     private static final int CURRENT_STREAK_INDEX = 1;
     private static final int TOTAL_STUDY_TIME_INDEX = 2;

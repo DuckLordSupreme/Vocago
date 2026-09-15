@@ -4,3 +4,5 @@ bin/
 out/
 *.class
 /data/
+/dist/
+/package/
