@@ -3,12 +3,6 @@
 Vocago is a desktop vocabulary-learning application built with
 Java 21 and Swing.
 
-## Demo
-
-[Browse app screenshots](./project_demo/)
-
-![Vocago profile dashboard](./project_demo/profile_dashboard.png)
-
 ## Run on Windows (no Java installation needed)
 
 Download the Windows installer from this repository's [Releases page](https://github.com/DuckLordSupreme/Vocago/releases), then
@@ -83,10 +77,6 @@ Do not upload only the portable `Vocago.exe`. Users need either the installer
 or the complete ZIP. The release downloads become available after you publish
 the release and attach the files.
 
-## Documentation
-
-[Report](./Project_Report.pdf)
-
 ## Features
 
 - Multiple user profiles
@@ -98,3 +88,15 @@ the release and attach the files.
 ## Technology
 
 Java 21 · Swing · Gradle · JUnit 5
+
+## Documentation
+
+[Technical Report & User Manual](./Project_Report.pdf)
+
+## Preview
+
+![new_profile](project_demo/new_profile_panel.png)
+![statistics](project_demo/profile_dashboard.png)
+![learning_panel](project_demo/learning_panel.png)
+![all_profiles](project_demo/profiles_panels.png)
+![my_vocabulary](project_demo/vocabulary_panel.png)
